@@ -1,0 +1,84 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #342ead;
+  font-family: 'Oxygen', sans-serif;
+  color: #61122f;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ea6227;
+  border-radius: 0;
+  border: 0;
+  padding: 15px;
+}
+
+.navbar-brand h1 { /* Brand name */
+  font-family: 'Lora', serif;
+  color: #61122f;
+  font-size: 2.5em;
+  
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+.navbar-default .navbar-collapse {
+    border: 0;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+  border:1px solid #342ead;
+  background-color: #f2a51a;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #342ead;
+}
+/* END HEADER */
+
+/** MAIN PAGE **/
+#main_title {
+    margin: 20px;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 2em;
+}
+ .row{
+  margin: 0;
+  padding: 10px;
+ }
+.row div {
+  background-color: #f2a51a;
+  margin-top: 10px;
+  height: 250px;
+
+  font-style: italic;
+  text-align: left;
+}
+#sec1{
+  height: 1000px;
+}
+.title{
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 5px;
+}
+/* END MAIN PAGE */
